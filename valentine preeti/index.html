@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Valentine Surprise 💖</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <div class="valentine-container">
+
+    <div class="background" id="background">
+      <div class="gradient-overlay"></div>
+    </div>
+
+    <div class="content">
+
+      <!-- PROPOSAL -->
+      <div class="proposal-stage" id="proposalStage">
+        <h1 class="main-text" id="mainText">
+          Preeti, will you be my Valentine? 💖
+        </h1>
+
+        <div class="buttons-container">
+          <button class="btn btn-yes" id="yesBtn">Yes 💕</button>
+          <button class="btn btn-no" id="noBtn">No 😜</button>
+        </div>
+      </div>
+
+      <!-- CELEBRATION -->
+      <div class="celebration-stage" id="celebrationStage" style="display:none;">
+        <div class="floating-hearts-container" id="floatingHeartsContainer"></div>
+
+        <div class="neon-heart-container">
+          <div class="neon-heart">❤️</div>
+        </div>
+
+        <h1 class="celebration-text">I love you, Preeti ❤️</h1>
+
+        <button class="btn btn-message" id="messageBtn">
+          Click here to see a message for you 💌
+        </button>
+      </div>
+
+      <!-- MESSAGE -->
+      <div class="message-stage" id="messageStage" style="display:none;">
+        <div class="message-box">
+          <h2 class="message-title">A Message For You 💌</h2>
+          <div class="message-content" id="messageContent"></div>
+          <button class="btn btn-back" id="backBtn">Back 💕</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
