@@ -1,20 +1,32 @@
 const PLAYFUL_TEXTS = [
-  "Thinking again? 😏",
-  "Come on… you know the answer 💗",
-  "Don’t break my heart 💔",
-  "Getting closer… 😉",
-  "Just say yes already! 😘",
-  "You know you want to 💕"
+  "Wait, did you misclick? 😮",
+  "Are you sure? 🧐",
+  "My heart... it's fragile! 🥺",
+  "Catch me if you can! 🏃‍♂️💨",
+  "Really sure? 🤨",
+  "Are you playing hard to get? 😏",
+  "I’m calling the Love Police! 🚔❤️",
+  "Error: 'No' is not an option! 🚫",
+  "You're breaking the internet! 💻💔",
+  "Preeti... please? 🥺",
+  "I can do this all day! 🦸‍♂️",
+  "I’m gonna cry... 😭 ",
+  "Probability of 'No' dropping to 0%... 📉",
+  "Even the button is confused! 🤖❓",
+  "I'll give you a cookie if you say yes! 🍪"
 ];
 
 const ROMANTIC_MESSAGE = `
-Dear Preeti,
+To my dearest Preeti,
 
-Every moment with you feels magical.
-You make my world brighter and my heart happier.
+They say home is a place, but with you, I've realized home is a person. 
+Every laugh we share and every quiet moment together is a treasure I hold close.
 
-I love you more than words can say ❤️
-Forever yours 💕
+You aren’t just my love; you’re my best friend and my favorite adventure. 
+Thank you for being the beautiful soul you are.
+
+I love you more than all the stars in the sky. ❤️
+Always & Forever. 💕
 `;
 
 const proposalStage = document.getElementById("proposalStage");
@@ -84,3 +96,4 @@ backBtn.addEventListener("click", () => {
   messageStage.style.display = "none";
   celebrationStage.style.display = "flex";
 });
+
